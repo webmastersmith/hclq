@@ -1,6 +1,7 @@
 #!/bin/sh
 # Installs or upgrades hclq, by default installing into /usr/local/bin
 # This can be overridden with the -d parameter, see help()
+
 set -e
 [ -n "${DEBUG:-}" ] && set -x
 
